@@ -1,0 +1,3 @@
+include ':app'
+apply from: 'data/data-settings.gradle'
+rootProject.name = "SampleProject"

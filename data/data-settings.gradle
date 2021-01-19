@@ -1,0 +1,11 @@
+def rootDir = settingsDir
+def modulePrefix = ':'
+
+include modulePrefix + 'data-api'
+project(modulePrefix + 'data-api').projectDir = new File(rootDir, 'data/api')
+
+include modulePrefix + 'data-impl'
+project(modulePrefix + 'data-impl').projectDir = new File(rootDir, 'data/impl')
+
+include modulePrefix + 'data-wiring-impl'
+project(modulePrefix + 'data-wiring-impl').projectDir = new File(rootDir, 'data/impl-wiring')
