@@ -8,4 +8,4 @@ include modulePrefix + 'data-impl'
 project(modulePrefix + 'data-impl').projectDir = new File(rootDir, 'data/impl')
 
 include modulePrefix + 'data-wiring-impl'
-project(modulePrefix + 'data-wiring-impl').projectDir = new File(rootDir, 'data/impl-wiring')
+project(modulePrefix + 'data-wiring-impl').projectDir = new File(rootDir, 'data/wiring_impl')
